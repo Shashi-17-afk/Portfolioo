@@ -88,7 +88,7 @@ export const About: React.FC = () => {
 
               <div>
                 <span className="text-[#7D7770] block mb-1">Academic Background</span>
-                <div className="text-[#F5F2EC] font-medium">IIT Patna — BS Computer Science & Data Analytics</div>
+                <div className="text-[#F5F2EC] font-medium">IIT Patna — Bachelors in Computer Science & Data Analytics</div>
                 <div className="text-[#A39E96] text-[11px]">PW Institute of Innovation — CS & AI</div>
               </div>
 
