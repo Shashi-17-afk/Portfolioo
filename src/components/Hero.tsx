@@ -30,10 +30,12 @@ export const Hero: React.FC<HeroProps> = () => {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 0.4 }}
-            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#1C1A18] border border-[#2A2724] text-xs font-mono text-[#F5F2EC] shadow-sm"
+            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#1C1A18] border border-[#2A2724] text-xs font-mono text-[#F5F2EC] shadow-sm flex-wrap"
           >
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            <span className="font-medium">Full Stack Intern @ ULICA</span>
+            <span className="font-medium text-emerald-400">Co-Founder @ GoAutomate</span>
+            <span className="text-[#635E59]">•</span>
+            <span className="text-[#C4BEB5]">Full Stack Intern @ ULICA</span>
             <span className="text-[#635E59]">•</span>
             <span className="text-[#F39C7D] font-semibold">IIT Patna '28</span>
           </motion.div>

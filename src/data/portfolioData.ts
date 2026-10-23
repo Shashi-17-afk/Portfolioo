@@ -8,7 +8,7 @@ export const personalDetails = {
   phone: '+91 6304380138',
   github: 'https://github.com/Shashi-17-afk',
   linkedin: 'https://linkedin.com/in/shashi-shanthan-6628a9412/',
-  currentStatus: 'Full Stack Engineer Intern @ ULICA',
+  currentStatus: 'Co-Founder @ GoAutomate | Full Stack Intern @ ULICA',
   summary: `Full-stack developer focused on building and shipping AI-integrated web applications end-to-end — from rapid prototyping to deployed backend. Comfortable working across React, Node.js, and edge/cloud infrastructure, with growing depth in applying LLMs and vector search inside production tools. Pairs strong CS fundamentals with an AI-accelerated workflow (Cursor + Claude) to move from idea to deployed product fast, without skipping on code quality or system design.`
 };
 
@@ -145,6 +145,21 @@ export const projectsData: Project[] = [
 
 export const workExperiences: WorkExperience[] = [
   {
+    company: 'GoAutomate',
+    website: 'https://www.goautomate.studio',
+    role: 'Co-Founder',
+    location: 'Bengaluru, India',
+    period: 'Dec 2025 – Present',
+    current: true,
+    description: [
+      'Co-founded an AI automation agency delivering custom full-stack automation systems, intelligent voice & chat agents, and workflow integrations for startups and SaaS businesses.',
+      'Architect production-grade custom n8n workflows, Vapi conversational voice agents, and Twilio SMS bots powered by OpenAI models.',
+      'Engineer custom Next.js dashboards for monitoring and orchestration alongside resilient API integrations with Stripe, HubSpot, Slack, and WhatsApp.',
+      'Drive client strategy and technical implementation to automate manual operations end-to-end with high-availability, scalable systems.'
+    ],
+    technologies: ['n8n', 'Next.js', 'AI Agents', 'OpenAI', 'Vapi', 'Twilio', 'REST APIs', 'Node.js']
+  },
+  {
     company: 'ULICA',
     website: 'https://ulica.in',
     role: 'Full Stack Engineer Intern',
@@ -262,6 +277,8 @@ export const skillCategories: SkillCategory[] = [
       { name: 'Vector Embeddings (bge-base)', note: 'Semantic Matching' },
       { name: 'RAG Architecture', note: 'Retrieval Augmented Generation' },
       { name: 'Prompt Engineering', note: 'Structured Output Prompts' },
+      { name: 'AI Agents & Voice', note: 'Vapi, Twilio & OpenAI' },
+      { name: 'Workflow Automation', note: 'n8n & Custom Integrations' },
       { name: 'Cursor + Claude', note: 'AI-Accelerated Dev Flow' }
     ]
   },

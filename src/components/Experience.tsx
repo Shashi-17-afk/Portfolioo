@@ -39,15 +39,15 @@ export const Experience: React.FC = () => {
             {workExperiences.map((exp, idx) => (
               <div
                 key={idx}
-                className="bg-[#181614] border border-[#2C2824] rounded-2xl p-6 relative overflow-hidden group hover:border-[#38332E] shadow-xs transition-all"
+                className="bg-[#FAF7F2] border border-[#DDD6CB] rounded-2xl p-6 relative overflow-hidden group hover:border-[#C5BCAB] shadow-[0_8px_30px_rgba(0,0,0,0.22)] transition-all"
               >
                 <div className="flex flex-wrap items-start justify-between gap-3 mb-3">
                   <div>
                     <div className="flex items-center gap-2">
-                      <h4 className="text-xl font-bold text-[#F5F2EC] group-hover:text-[#F39C7D] transition-colors">
+                      <h4 className="text-xl font-bold text-[#151311] group-hover:text-[#C2410C] transition-colors">
                         {exp.role}
                       </h4>
-                      <span className="px-2.5 py-0.5 rounded text-[11px] font-mono font-semibold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">
+                      <span className="px-2.5 py-0.5 rounded text-[11px] font-mono font-semibold bg-emerald-800/10 text-emerald-800 border border-emerald-700/30">
                         {exp.current ? 'Current Role' : exp.period}
                       </span>
                     </div>
@@ -55,27 +55,27 @@ export const Experience: React.FC = () => {
                       href={exp.website}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 text-sm font-mono text-[#F39C7D] hover:text-white mt-0.5"
+                      className="inline-flex items-center gap-1.5 text-sm font-mono font-semibold text-[#C2410C] hover:text-[#9A3412] mt-0.5"
                     >
                       <span>{exp.company}</span>
-                      <span className="text-[#7D7770] text-xs">({exp.website.replace('https://', '')})</span>
-                      <ExternalLink className="w-3 h-3" />
+                      <span className="text-[#6B655D] text-xs font-normal">({exp.website.replace(/^https?:\/\//, '').replace(/\/$/, '')})</span>
+                      <ExternalLink className="w-3 h-3 text-[#C2410C]" />
                     </a>
                   </div>
 
-                  <div className="flex flex-col items-end text-xs font-mono text-[#A39E96]">
-                    <span className="flex items-center gap-1">
-                      <Calendar className="w-3.5 h-3.5" />
+                  <div className="flex flex-col items-end text-xs font-mono text-[#5C564E]">
+                    <span className="flex items-center gap-1 font-medium">
+                      <Calendar className="w-3.5 h-3.5 text-[#7A746B]" />
                       {exp.period}
                     </span>
-                    <span className="flex items-center gap-1 text-[#7D7770] mt-1">
-                      <MapPin className="w-3.5 h-3.5" />
+                    <span className="flex items-center gap-1 text-[#7A746B] mt-1">
+                      <MapPin className="w-3.5 h-3.5 text-[#7A746B]" />
                       {exp.location}
                     </span>
                   </div>
                 </div>
 
-                <ul className="space-y-2.5 text-sm text-[#C4BEB5] my-4 pl-4 list-disc marker:text-[#DA7757]">
+                <ul className="space-y-2.5 text-sm text-[#2D2824] my-4 pl-4 list-disc marker:text-[#C2410C]">
                   {exp.description.map((bullet, bIdx) => (
                     <li key={bIdx} className="leading-relaxed">
                       {bullet}
@@ -83,11 +83,11 @@ export const Experience: React.FC = () => {
                   ))}
                 </ul>
 
-                <div className="pt-3 border-t border-[#2C2824] flex flex-wrap gap-2">
+                <div className="pt-3 border-t border-[#DED7CD] flex flex-wrap gap-2">
                   {exp.technologies.map((tech, tIdx) => (
                     <span
                       key={tIdx}
-                      className="px-2.5 py-0.5 rounded text-xs font-mono bg-[#121110] text-[#F5F2EC] border border-[#2A2724]"
+                      className="px-2.5 py-0.5 rounded text-xs font-mono bg-[#E8E2D8] text-[#1F1B18] border border-[#D5CDC1] font-medium"
                     >
                       {tech}
                     </span>

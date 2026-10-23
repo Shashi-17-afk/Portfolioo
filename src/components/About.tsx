@@ -34,7 +34,7 @@ export const About: React.FC = () => {
               I am a Full-Stack Engineer pursuing a Bachelor's in Computer Science & Data Analytics at <strong className="text-[#F5F2EC]">IIT Patna</strong> and a 4-year CS & AI program at <strong className="text-[#F5F2EC]">PW Institute of Innovation</strong>.
             </p>
             <p>
-              Currently, I work as a <strong className="text-[#F5F2EC] font-semibold">Full Stack Engineer Intern at ULICA</strong>, an e-commerce clothing brand, where I build responsive frontend storefront interfaces, maintain Node.js REST API endpoints connected to product databases, and integrate AI-powered solutions to automate repetitive workflows and improve development and business processes.
+              Currently, I am the <strong className="text-[#F5F2EC] font-semibold">Co-Founder of GoAutomate</strong>, building custom AI agents and full-stack n8n automation systems for businesses, and work as a <strong className="text-[#F5F2EC] font-semibold">Full Stack Engineer Intern at ULICA</strong>, developing e-commerce storefront interfaces, maintaining Node.js REST APIs, and automating operational workflows.
             </p>
             <p>
               My engineering focus centers on <span className="text-[#F39C7D] font-mono text-sm font-semibold">Edge AI Infrastructure</span>, <span className="text-[#F39C7D] font-mono text-sm font-semibold">Vector Search Systems</span>, and <span className="text-[#F39C7D] font-mono text-sm font-semibold">Real-Time Web Applications</span>. I built <strong className="text-[#F5F2EC]">HireSight</strong> — an AI hiring platform solo on 5 Cloudflare primitives — and <strong className="text-[#F5F2EC] font-semibold">TechVault</strong>, a full-stack e-commerce system with Razorpay signature verification and webhook receivers.
@@ -82,7 +82,8 @@ export const About: React.FC = () => {
             <div className="space-y-4 text-xs font-mono">
               <div>
                 <span className="text-[#7D7770] block mb-1">Current Position</span>
-                <div className="text-[#F5F2EC] font-semibold text-sm">Full Stack Engineer Intern @ ULICA</div>
+                <div className="text-[#F5F2EC] font-semibold text-sm">Co-Founder @ GoAutomate</div>
+                <div className="text-[#A39E96] text-[11px] mt-0.5">Full Stack Engineer Intern @ ULICA</div>
               </div>
 
               <div>
